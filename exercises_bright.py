@@ -59,26 +59,24 @@ print(title_sentence)
 
 # Section 4
 
-user_name = input("What's your name: ")
-print(f"Hello {user_name}!")
+# user_name = input("What's your name: ")
+# print(f"Hello {user_name}!")
 
-user_sentence = input("Enter a sentence: ")
-print(len(user_sentence))
-print(user_sentence.upper())
-print(user_sentence[:5])
+# user_sentence = input("Enter a sentence: ")
+# print(len(user_sentence))
+# print(user_sentence.upper())
+# print(user_sentence[:5])
 
-user_word = input("Enter a word and I'll return a reversed version: ")
-print(user_word[::-1])
+# user_word = input("Enter a word and I'll return a reversed version: ")
+# print(user_word[::-1])
 
 
 user_string = input("Enter your string: ")
 
 user_list = list(user_string)
-vowels_list = ["i", "o", "e", "a", "u"]
 
-
-for vowel in vowels_list:
-    if vowel in user_list:
+for vowel in "ioeau":
+    if vowel in user_string:
         user_list.remove(vowel)
 new_string = "".join(user_list)
 print(new_string)
