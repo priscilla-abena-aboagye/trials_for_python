@@ -45,7 +45,7 @@ print(user_sentence.upper())
 print(user_sentence[:5])
 print("------------------------------")
 user_word = input("Enter a word: ")
-print(user_word[-1])
+print(user_word[::-1])
 print("-----------------------------")
 user_input = input("Enter your sentence: ")
 for char in user_input:
