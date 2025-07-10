@@ -19,3 +19,18 @@ print("Hello" + "World")
 var = "Cilla"
 mul = var * 5
 print(mul)
+print()
+
+# Section 3
+user = " My name is "
+print(user)
+print(user.strip())
+print(user.upper())
+print(user.lower())
+user_modify = user[:4] +"y" + user[5:]
+print(user_modify)
+print(user.count("a"))
+check = "a" in user
+print(check)
+print(user.find("s"))
+print(user.title())
