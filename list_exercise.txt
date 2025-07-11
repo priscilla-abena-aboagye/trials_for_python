@@ -1,21 +1,41 @@
-Basic List Exercises
+🔧 List Operation Exercises (No Logic, No Loops)
 
-Create a list of 5 favorite fruits and print it.
+Create a list of 5 cities and print it.
 
-Add a new fruit to the end of the list.
+Add a new city to the end of the list using append().
 
-Insert a fruit at the second position of the list.
+Insert a city at the second position using insert().
 
-Remove the last fruit from the list.
+Extend the list by adding another list of 2 cities using extend().
 
-Remove a specific fruit by name from the list.
+Remove the last city from the list using pop().
 
-Print the length of the list.
+Remove a specific city from the list using remove().
 
-Print the first, middle, and last items from the list.
+Replace the third city in the list with a new city.
 
-Reverse the list.
+Get a sublist of the first 3 cities using slicing.
 
-Sort the list alphabetically.
+Get the last two cities in the list using negative slicing.
 
-Make a copy of the list and modify the copy without affecting the original.
+Clear all elements from the list using clear().
+
+Make a copy of the list using copy().
+
+Find the index of a specific city using index().
+
+Count how many times a city appears using count().
+
+Reverse the list using reverse().
+
+Sort the list alphabetically using sort().
+
+Sort the list in reverse alphabetical order using sort(reverse=True).
+
+Concatenate two lists using the + operator.
+
+Repeat the list 3 times using the * operator.
+
+Check if a city is in the list using the in operator.
+
+Get the length of the list using len().
