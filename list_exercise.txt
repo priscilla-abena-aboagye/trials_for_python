@@ -1,0 +1,21 @@
+Basic List Exercises
+
+Create a list of 5 favorite fruits and print it.
+
+Add a new fruit to the end of the list.
+
+Insert a fruit at the second position of the list.
+
+Remove the last fruit from the list.
+
+Remove a specific fruit by name from the list.
+
+Print the length of the list.
+
+Print the first, middle, and last items from the list.
+
+Reverse the list.
+
+Sort the list alphabetically.
+
+Make a copy of the list and modify the copy without affecting the original.
