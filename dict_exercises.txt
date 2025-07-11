@@ -1,0 +1,58 @@
+Basic Dictionary Operations
+Create a dictionary with keys: "name", "age", and "country" and assign them values.
+
+Add a new key "email" with a value.
+
+Update the "age" key to a new value.
+
+Retrieve the value of "name" using [].
+
+Retrieve the value of "country" using .get().
+
+Get all keys using .keys().
+
+Get all values using .values().
+
+Get all key-value pairs using .items().
+
+Copy the dictionary using .copy().
+
+Remove "email" using .pop().
+
+Remove the last added item using .popitem().
+
+Check if "name" is a key using in.
+
+Use .setdefault("gender", "Not specified").
+
+Merge another dictionary using .update().
+
+Clear all items using .clear().
+
+Create a dictionary from two lists using dict(zip(keys, values)).
+
+Create an empty dictionary.
+
+Access a non-existent key with a fallback using .get("nickname", "N/A").
+
+Delete "age" using del.
+
+Find the number of items in the dictionary using len().
+
+Access the math grade from the grades sub-dictionary.
+
+Update the phone number inside the contact dictionary.
+
+Add a new subject and grade to the grades dictionary.
+
+Retrieve the email from the contact dictionary using .get().
+
+Use .keys() on the grades sub-dictionary.
+
+Delete "science" from the grades sub-dictionary.
+
+Add a new nested dictionary for "address" inside student.
+
+Copy the entire student dictionary using .copy().
+
+Get the number of top-level keys in the student dictionary.
