@@ -147,7 +147,7 @@ print("---------------------------------------------")
 
 # Add a new subject and grade to the grades dictionary.
 
-student_records["grades"] = {"Python": 98}
+student_records["grades"]["python"] = 98
 print(student_records)
 print("---------------------------------------------")
 
@@ -169,9 +169,9 @@ print("---------------------------------------------")
 
 # Delete "CLI" from the grades sub-dictionary.
 
-# del student_records["grades"]["CLI"]
-# print(student_records)
-# print("---------------------------------------------")
+del student_records["grades"]["CLI"]
+print(student_records)
+print("---------------------------------------------")
 
 # Add a new nested dictionary for "address" inside student.
 
