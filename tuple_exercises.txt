@@ -1,0 +1,52 @@
+
+🟦 Basic Tuple Operations
+
+Create a tuple of 5 colors and print it.
+
+Check the length of the tuple using len().
+
+Access the first and last items in the tuple using indexing.
+
+Slice and get the first 3 elements of a tuple.
+
+Slice and get the last 2 elements of a tuple.
+
+Create a single-item tuple (with correct syntax).
+
+Check if "blue" exists in the tuple using the in operator.
+
+Concatenate two tuples.
+
+Repeat a tuple 3 times using the * operator.
+
+Convert a tuple to a list using list().
+
+🟩 Tuple with Different Data Types
+Create a tuple with a string, an integer, a float, and a boolean.
+
+Access each item in the mixed-type tuple using its index.
+
+Nest one tuple inside another.
+
+Access an element inside the nested tuple.
+
+🟨 Immutability Concepts
+Try modifying a value inside a tuple (expect an error).
+
+Reassign the entire tuple variable to a new tuple.
+
+Delete the whole tuple using del.
+
+Unpack a 3-element tuple into 3 variables.
+
+Use tuple unpacking to swap values between two variables.
+
+Use the .index() method to find the index of a value in a tuple.
+
+🟧 Tuples with Lists (Bonus)
+Create a tuple containing a list inside it.
+
+Modify the list inside the tuple.
+
+Add a new item to the list that is inside the tuple.
+
