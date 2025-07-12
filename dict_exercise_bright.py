@@ -147,7 +147,11 @@ print("---------------------------------------------")
 
 # Add a new subject and grade to the grades dictionary.
 
+<<<<<<< HEAD
 student_records["grades"]["Python"] = 98
+=======
+student_records["grades"]["python"] = 98
+>>>>>>> 2038b248ea5571d4786810f09051172b9bacda9d
 print(student_records)
 print("---------------------------------------------")
 
@@ -169,7 +173,11 @@ print("---------------------------------------------")
 
 # Delete "CLI" from the grades sub-dictionary.
 
+<<<<<<< HEAD
 del student_records["grades"]["Git and GitHub"]
+=======
+del student_records["grades"]["CLI"]
+>>>>>>> 2038b248ea5571d4786810f09051172b9bacda9d
 print(student_records)
 print("---------------------------------------------")
 
